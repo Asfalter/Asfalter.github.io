@@ -283,7 +283,7 @@
             $el.css("background-position", 'left' + " " + yPos_p + "px");
         }
         if ($('.parallax').hasClass('parallax-background2')) {
-            $el.css("background-position", 'left' + " " + -yPos_p + "px");
+            $el.css("background-position", 'center' + " " + -yPos_p + "px");
 
         }
     };
@@ -561,5 +561,3 @@
 $(window).load(function () {
     $(".all-demos-link").attr("href", "../demo.html");
 });
-
-
