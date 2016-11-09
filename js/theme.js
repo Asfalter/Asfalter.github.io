@@ -262,8 +262,8 @@
     function parallax($el) {
         var diff_s = $(window).scrollTop();
         var parallax_height = $('.parallax').height();
-        var yPos_p = (diff_s * 0.5);
-        var yPos_m = -(diff_s * 0.5);
+        var yPos_p = (diff_s * -0.5);
+        var yPos_m = -(diff_s * -0.5);
         var diff_h = diff_s / parallax_height;
 
         if ($('.parallax').hasClass('parallax-section1')) {
