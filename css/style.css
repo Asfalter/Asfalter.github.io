@@ -2308,7 +2308,7 @@ o-flow-hidden {
 
 
 /* Singel Item slider (Images & Contant Slider) */
-.content-carousel, .image-carousel, .intro-text-slider {
+.content-carousel, .image-carousel, .intro-text-slider  {
     overflow: hidden;
     position:relative;
 }
