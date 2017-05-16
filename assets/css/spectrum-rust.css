@@ -737,7 +737,7 @@ a.light-text:focus {
   width: 55px;
   border-radius: 100%;
   line-height: 45px;
-  margin-top: 5px;
+  margin-top: 295px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transitino: all 0.3s ease-in-out;
@@ -774,7 +774,7 @@ a.light-text:focus {
 @media (min-width: 768px) {
   .btn-scroll-dark,
   .btn-scroll-light {
-    margin-top: 30px;
+    margin-top: 295px;
   }
 }
 .about-1 #about-1-carousel .item,
@@ -921,16 +921,16 @@ a.light-text:focus {
 }
 @media (min-width: 767px) {
   .about-img-1 {
-    background-image: url(../img/demo-portraits/portrait-1.jpg);
+    background-image: url(../img/demo-portraits/karlabn.jpg);
   }
   .about-img-2 {
-    background-image: url(../img/demo-portraits/portrait-2.jpg);
+    background-image: url(../img/demo-portraits/ivonebn.jpg);
   }
   .about-img-3 {
-    background-image: url(../img/demo-portraits/portrait-3.jpg);
+    background-image: url(../img/demo-portraits/verobn.jpg);
   }
   .about-img-4 {
-    background-image: url(../img/demo-portraits/portrait-4.jpg);
+    background-image: url(../img/demo-portraits/priscilabn.jpg);
   }
 }
 .blog-1 .blog-col {
@@ -2874,4 +2874,9 @@ p.demo-text {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 32px;
   letter-spacing: 3px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
+
