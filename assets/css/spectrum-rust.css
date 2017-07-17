@@ -591,7 +591,7 @@ a.light-text:focus {
   background-color: #3e444d;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -737,7 +737,7 @@ a.light-text:focus {
   width: 55px;
   border-radius: 100%;
   line-height: 45px;
-  margin-top: 295px;
+  margin-top: 200px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transitino: all 0.3s ease-in-out;
@@ -774,7 +774,7 @@ a.light-text:focus {
 @media (min-width: 768px) {
   .btn-scroll-dark,
   .btn-scroll-light {
-    margin-top: 295px;
+    margin-top: 200px;
   }
 }
 .about-1 #about-1-carousel .item,
@@ -927,7 +927,7 @@ a.light-text:focus {
     background-image: url(../img/demo-portraits/ivonebn.jpg);
   }
   .about-img-3 {
-    background-image: url(../img/demo-portraits/verobn.jpg);
+    background-image: url(../img/demo-portraits/camilabn.jpg);
   }
   .about-img-4 {
     background-image: url(../img/demo-portraits/priscilabn.jpg);
@@ -1340,12 +1340,12 @@ a.light-text:focus {
 .bg-parallax-dark {
   width: 100%;
   height: auto;
-  background-attachment: scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-position: center bottom;
 }
 .bg-parallax-light {
   color: #3e444d;
@@ -1367,6 +1367,8 @@ a.light-text:focus {
   .bg-parallax-light,
   .bg-parallax-dark {
     background-attachment: fixed;
+    background-size: 100% auto;
+    
   }
 }
 .screen-cta {
@@ -2865,18 +2867,100 @@ p.demo-text {
   }
 }
 
-#map {
-  height: 400px;
-  width: 100%;
-}
-
 .bg-parallax-dark {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 32px;
   letter-spacing: 3px;
   height: 300px;
   background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
+  background-position: 0% 0%;
+  background-size: 100% auto;
 }
 
+.intro-img {
+  height: 100vh;
+}
+
+
+#parallaxwrapper {
+  position: relative;
+  height: 300px;
+}
+
+/*Primer parallax en dispositivos moviles*/
+#primer-parallax {
+  background-image: url('../img/frase1mobile.jpg');
+}
+
+/*Primer parallax en dispositivos moviles mas grandes y pantallas de PC pequeñas*/
+@media (min-width: 520px) and (max-width: 1023px) { 
+  #primer-parallax {
+    background-image: url('../img/frase1mobile2.jpg'); 
+  }
+}
+
+/*Primer parallax en pantallas grandes*/
+@media (min-width: 1024px) {
+  #primer-parallax{
+    background-image: url('../img/frase1.jpg');
+  }
+}
+    
+#primer-parallax-texto {
+  padding-top: 50px;
+}
+
+
+
+
+
+/*Segundo parallax en dispositivos moviles*/
+#segundo-parallax {
+  background-image: url('../img/frase2mobile.jpg');
+}
+
+/*Segundo parallax en dispositivos moviles mas grandes y pantallas de PC pequeñas*/
+@media (min-width: 520px) and (max-width: 1023px) { 
+  #segundo-parallax {
+    background-image: url('../img/frase2mobile3.jpg'); 
+  }
+}
+
+/*Segundo parallax en pantallas grandes*/
+@media (min-width: 1024px) {
+  #segundo-parallax{
+    background-image: url('../img/frase2.jpg');
+  }
+}
+    
+
+
+
+/*For debugging
+*{ border: 1px solid red; }*/
+
+/*Alto de los servicios en dispositivos moviles*/
+.blog-preview-content {
+  height: auto;
+}
+
+/*Alto de los servicios en dispositivos moviles as grandes y pantallas de PC pequeñas*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog-preview-content {
+    height: 500px;
+  }
+}
+
+/*Alto de los servicios en pantallas grandes*/
+@media (min-width: 1200px) {
+  .blog-preview-content {
+    height: 405px;
+  }
+}
+
+
+#glyph-display {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

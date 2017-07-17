@@ -10,10 +10,12 @@
 
     <title>Redditum</title>
 
+    <script src="https://use.fontawesome.com/4ce5cf8114.js"></script>
     <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
+  
     <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -33,7 +35,6 @@
     <link href="assets/css/plugins/owl.carousel/owl.transitions.css" rel="stylesheet">
     <link href="assets/css/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css" rel="stylesheet">
     <link href="assets/css/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-	<link href="assets/css/bootstrap-year-calendar.css" rel="stylesheet">
 
     <!-- Style CSS -->
 
@@ -93,15 +94,12 @@
             <!-- /.container -->
         </nav>
 
-        <header class="intro-img intro-dark-bg" style="background-image: url(assets/img/foto-inicio.jpg)" data-stellar-background-ratio="0.5">
-            <!--<div class="overlay"></div>-->
-            <div class="intro-body" data-scrollreveal="move 0 over 1.5s">
+
+        <!-- Hero -->
+        <header class="intro-img intro-dark-bg" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="50" style="background-image: url(assets/img/portada.jpg)">
+            <div class="intro-body" >
                 <div class="container">
-                    <!--<h1 id="homepage-title" class="brand-heading">
-                        Plasmando <span class="text-primary">Momentos </span><br>Inolvidables
-                    </h1>-->
-                    
-                   
+                    <img src="assets/img/texto-inicio.png" data-scrollreveal="move 10 over 3s" alt="Eventos en el Paraiso">
                     <div class="page-scroll" data-scrollreveal="enter bottom after .6s">
                         <a href="#about" class="btn btn-scroll-light sink">
                             <i class="fa fa-angle-double-down"></i>
@@ -110,6 +108,8 @@
                 </div>
             </div>
         </header>
+        <!-- Fin del hero -->
+
 
         <!-- Nosotros -->
         <section id="about" class="about-1">
@@ -131,7 +131,7 @@
                             <div class="item about-img-1">
                                 <div class="info">
                                     <!-- Mobile Fallback Image -->
-                                    <img class="img-responsive img-circle visible-xs" src="../assets/img/demo-portraits/karlabn.jpg" alt="">
+                                    <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/karlabn.jpg" alt="">
                                     <!-- Name / Position / Social Links -->
                                     <h3>Karla Semanate</h3>
                                     <p>CEO &amp; Fundadora</p>
@@ -141,30 +141,30 @@
                             <div class="item about-img-2">
                                 <div class="info">
                                     <!-- Mobile Fallback Image -->
-                                    <img class="img-responsive img-circle visible-xs" src="../assets/img/demo-portraits/ivonebn.jpg" alt="">
+                                    <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/ivonebn.jpg" alt="">
                                     <!-- Name / Position / Social Links -->
                                     <h3>Ivone Molina</h3>
-                                    <p>Cargo Aqui</p>
+                                    <p>Gerente Administrativa</p>
                                     
                                 </div>
                             </div>
                             <div class="item about-img-3">
                                 <div class="info">
                                     <!-- Mobile Fallback Image -->
-                                    <img class="img-responsive img-circle visible-xs" src="../assets/img/demo-portraits/verobn.jpg" alt="">
+                                    <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/camilabn.jpg" alt="">
                                     <!-- Name / Position / Social Links -->
-                                    <h3>Veronica Maruri</h3>
-                                    <p>Cargo Aqui</p>
+                                    <h3>Camila Castro</h3>
+                                    <p>Gerente Comunicacional</p>
                                     
                                 </div>
                             </div>
                             <div class="item about-img-4">
                                 <div class="info">
                                     <!-- Mobile Fallback Image -->
-                                    <img class="img-responsive img-circle visible-xs" src="../assets/img/demo-portraits/priscilabn.jpg" alt="">
+                                    <img class="img-responsive img-circle visible-xs" src="assets/img/demo-portraits/priscilabn.jpg" alt="">
                                     <!-- Name / Position / Social Links -->
                                     <h3>Priscila Vasquez</h3>
-                                    <p>Cargo Aqui</p>
+                                    <p>Gerente Comercial</p>
                                     
                                 </div>
                             </div>
@@ -176,21 +176,13 @@
 		<!-- Fin de nosotros -->
 		
 		<!-- Primer parallax -->
-        <aside class="bg-parallax-dark" style="background-image: url(assets/img/frase1.png);" data-stellar-background-ratio="0">
-            <div class="container">
-                <!--<div class="row text-center">
-                    <div class="col-lg-8 col-lg-offset-2">
-						
-                        <br >
-                        NOS ENCARGAMOS DE CADA DETALLE   
-						<br >
-                        PARA QUE TUS EVENTOS SEAN INOLVIDABLES
-						<br >
-                        
-                    </div>
-                </div>-->
-            </div>
-        </aside>
+        <div id="parallaxwrapper">
+          <aside id="primer-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="100" data-stellar-offset-parent="true">
+              <div class="container">
+                <img class="pull-right img-responsive" id="primer-parallax-texto" src="assets/img/frase1-texto.png" data-scrollreveal="enter right over 2.5s" alt="Un respiro en el paraiso">
+              </div>
+          </aside>
+        </div>
 		<!-- Fin primer parallax -->
 		
 		<!-- Servicios -->
@@ -206,11 +198,11 @@
                 <div class="row blog-row">
                     <div class="col-md-3 blog-col" data-scrollreveal="enter left over 1.5s">
                         <a class="blog-preview-img">  
-                            <img src="assets/img/demo-blog/1.jpg" class="img-responsive" alt="">
+                            <img src="assets/img/eventoscorporativos.jpg" class="img-responsive" alt="">
                         </a>
                         <div class="blog-preview-content">
                             <h3>Eventos Corporativos</h3>
-                            <p>Creamos una planificación estratégica que cause impacto en la audiencia de nuestros clientes corporativos, para lograr cumplir sus objetivos  planteados. Realizamos de inicio a fin un evento basado en experiencias. 
+                            <p>Creamos una planificación estratégica que cause impacto en la audiencia de nuestros clientes corporativos, para lograr cumplir sus objetivos  planteados. Realizamos de inicio a fin un evento basado en experiencias.
 </p>
                         </div>
                     </div>
@@ -230,8 +222,9 @@
                         </a>
                         <div class="blog-preview-content">
                             <h3>Eventos Sociales</h3>
-                            <p>Nuestro principal objetivo es crear el evento que siempre soñaste, tus ideas serán complemento de las nuestras y puestas en marcha por un equipo profesional, creativo e innovador.
-Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizado en  conjunto, así, tu y tus familiares pueden olvidarse de las preocupaciones y el estrés antes durante y después del evento.
+                            <p>Nuestro principal objetivo es crear el evento que siempre soñaste!
+Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizado en  conjunto, así, tu y tus familiares pueden olvidarse de  todas las preocupaciones.
+
 </p>
                         </div>
                     </div>
@@ -241,7 +234,7 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                         </a>
                         <div class="blog-preview-content">
                             <h3>Lanzamientos</h3>
-                            <p>Sabemos lo gratificante que puede ser el tener que lanzar un nuevo emprendimiento o un nuevo producto, es un paso emocionante en el viaje de un negocio y deseamos que esa emoción sea contagiada al mundo. Es por esto que ofrecemos un servicio integral durante toda  la travesía de lo que estos eventos conllevan, con soporte estratégico para plasmar en el  lanzamiento todo lo que el producto o servicio es, siente y transmite, con la mejor creatividad, estrategia e innovación nos comprometemos a cumplir toda expectativa de la marca.
+                            <p>Sabemos lo gratificante que puede ser el tener que lanzar un nuevo emprendimiento, es un paso emocionante en el viaje de un negocio y deseamos que esa emoción sea contagiada al mundo,  nosotros con un  soporte estratégico plasmamos en el  lanzamiento todo lo que el producto o servicio es, siente y transmite.
 </p>
                         </div>
                     </div>
@@ -252,11 +245,13 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
 		<!-- Fin de servicios -->
         
 		<!-- Segundo parallax -->
-        <aside class="bg-parallax-dark" style="background-image: url(assets/img/frase2.png);" data-stellar-background-ratio="0">
-            <div class="container">
-                
-            </div>
-        </aside>
+        <div id="parallaxwrapper">
+          <aside id="segundo-parallax" class="bg-parallax-dark" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+              <div class="container">
+                <img class="pull-left img-responsive" id="segundo-parallax-texto" src="assets/img/begins2.svg" data-scrollreveal="enter left over 2.5s" alt="And so the adventure begins">
+              </div>
+          </aside>
+        </div>
 		<!-- Fin segundo parallax -->
 
 		<!-- Portafolio -->
@@ -271,23 +266,26 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                 <button data-filter="*" type="button" class="btn btn-primary btn-square btn-raised">Todo</button>
                             </li>
                             <li>
-                                <button data-filter=".web" type="button" class="btn btn-primary btn-square btn-raised">Empresariales</button>
+                                <button data-filter=".empresariales" type="button" class="btn btn-primary btn-square btn-raised">Empresariales</button>
                             </li>
                             <li>
-                                <button data-filter=".graphic" type="button" class="btn btn-primary btn-square btn-raised">Convenciones</button>
+                                <button data-filter=".convenciones" type="button" class="btn btn-primary btn-square btn-raised">Convenciones</button>
                             </li>
                             <li>
-                                <button data-filter=".print" type="button" class="btn btn-primary btn-square btn-raised">Sociales</button>
+                                <button data-filter=".sociales" type="button" class="btn btn-primary btn-square btn-raised">Sociales</button>
                             </li>
                             <li>
-                                <button data-filter=".print" type="button" class="btn btn-primary btn-square btn-raised">Lanzamientos</button>
+                                <button data-filter=".lanzamientos" type="button" class="btn btn-primary btn-square btn-raised">Lanzamientos</button>
                             </li>
                         </ul>
                     </div>
                 </div>
+              
+                <!-- Grid de portafolio -->
                 <div class="row" data-scrollreveal="enter bottom over 1.5s">
                     <div class="isotope">
-                        <div class="col-sm-4 portfolio-item web">
+                        <!-- Primera imagen -->
+                        <div class="col-sm-4 portfolio-item empresariales">
                             <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -295,10 +293,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/1.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Empresariales/img1.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item graphic">
+                      
+                        <!-- Segunda imagen -->
+                        <div class="col-sm-4 portfolio-item empresariales">
                             <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -306,10 +306,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/2.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Empresariales/img2.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item print">
+                      
+                        <!-- Tercera imagen -->
+                        <div class="col-sm-4 portfolio-item empresariales">
                             <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -317,10 +319,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/3.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Empresariales/img3.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item web">
+                      
+                        <!-- Cuarta imagen -->
+                        <div class="col-sm-4 portfolio-item convenciones">
                             <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -328,10 +332,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/4.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Conveciones/img1.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item graphic">
+                      
+                        <!-- Quinta imagen -->
+                        <div class="col-sm-4 portfolio-item convenciones">
                             <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -339,10 +345,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/5.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Conveciones/img2.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item print">
+                      
+                        <!-- Sexta imagen -->
+                        <div class="col-sm-4 portfolio-item convenciones">
                             <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -350,10 +358,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/6.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Conveciones/img3.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item web">
+                      
+                        <!-- Septima imagen -->
+                        <div class="col-sm-4 portfolio-item sociales">
                             <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -361,10 +371,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/7.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Sociales/img1.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item graphic">
+                      
+                        <!-- Octava imagen -->
+                        <div class="col-sm-4 portfolio-item sociales">
                             <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -372,10 +384,12 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/8.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Sociales/img2.jpg" class="img-centered" alt="">
                             </a>
                         </div>
-                        <div class="col-sm-4 portfolio-item print">
+                      
+                        <!-- Novena imagen -->
+                        <div class="col-sm-4 portfolio-item sociales">
                             <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
@@ -383,9 +397,50 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                                         </h3>
                                     </div>
                                 </div>
-                                <img src="assets/img/demo-portfolio/9.jpg" class="img-centered" alt="">
+                                <img src="assets/img/Sociales/img3.jpg" class="img-centered" alt="">
                             </a>
                         </div>
+                      
+                        <!-- Decima imagen -->
+                        <div class="col-sm-4 portfolio-item lanzamientos">
+                            <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/Lanzamientos/img1.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                      
+                        <!-- Onceaba imagen -->
+                        <div class="col-sm-4 portfolio-item lanzamientos">
+                            <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/Lanzamientos/img2.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                      
+                        <!-- Doceaba imagen -->
+                        <div class="col-sm-4 portfolio-item lanzamientos">
+                            <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/Lanzamientos/img3.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+                      
+                        
                     </div>
                 </div>
             </div>
@@ -417,7 +472,29 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
                 <div class="row">
                     <div class="col-lg-6" data-scrollreveal="enter left over 1.5s">
                         <h2 id="section-title">Contáctanos</h2>
-                        <p>¡Cuéntanos tu sueño y lo hacemos realidad!</p>
+                        <p style="font-size: 26px; font-family: 'Quicksand', sans-serif;">¡Cuéntanos tu sueño y lo hacemos realidad!</p>
+                      
+                        <div class="row">
+                          <div class="col-md-12" id="glyph-display">
+                            <i class="fa fa-envelope-o fa-2x fa-fw"></i>
+                            <div style="font-size: 16px; font-family: 'Quicksand', sans-serif; margin-left:10px;">info@redditum.store</div>
+                          </div>
+                        </div>
+                      
+                        <div class="row">
+                          <div class="col-md-12" id="glyph-display">
+                            <i class="fa fa-phone fa-2x fa-fw"></i>
+                            <div style="font-size: 16px; font-family: 'Quicksand', sans-serif; margin-left:10px;">0987108662</div>
+                          </div>
+                        </div>
+                      
+                        <div class="row">
+                          <div class="col-md-12" id="glyph-display">
+                            <i class="fa fa-map-marker fa-2x fa-fw"></i>
+                            <div style="font-size: 16px; font-family: 'Quicksand', sans-serif; margin-left:10px;">Dirección aqui</div>
+                          </div>
+                        </div>
+                      
                     </div>
                     <div class="col-lg-5 col-lg-offset-1" data-scrollreveal="enter right over 1.5s">
                         <br>
@@ -456,17 +533,14 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
             </div>
         </section>
 		<!-- Fin de contacto -->
-      
-        <!-- Mapa -->
-        <div id="map"></div>
-        <!-- Fin mapa -->
+
       
         <footer class="footer-1">
             <div class="upper">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <img id="footer-image" src="assets/img/logorfooter.png" alt="">
+                            <img id="footer-image" src="assets/img/logorfooter.png" data-scrollreveal="enter left over 2.5s" alt="Logo de Redditum">
                         </div>
                         
                         <div class="col-md-9">
@@ -601,8 +675,6 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
     <script src="assets/js/jquery-1.10.2.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/modernizr.custom.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsEuBrK0qddxh9OK_RafPXDOxbjg73kIU"
-  type="text/javascript"></script>
 
     <!-- Plugin JavaScript Files -->
     <script src="assets/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>
@@ -617,23 +689,17 @@ Nos encargamos de planificar, coordinar y ejecutar un plan de trabajado realizad
     <script src="assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
     <script src="assets/js/contact_me.js"></script>
     <script src="assets/js/plugins/isotope/isotope.pkgd.min.js"></script>
-	<script src="assets/js/bootstrap-year-calendar.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsEuBrK0qddxh9OK_RafPXDOxbjg73kIU&callback=initMap">
-    </script>
+    <script src="assets/js/plugins/skrollr/skrollr.min.js"></script>
 
     <!-- Spectrum JavaScript Files -->
     <script src="assets/js/spectrum.nav.js"></script>
     <script src="assets/js/spectrum.js"></script>
   
-	
-	<!-- Calendar -->
-	<script>$('.calendar').calendar({disabledDays:[new Date(2017,3,2),
-                                                  new Date(2017,3,3),
-                                                  new Date(2017,5,12),
-                                                  new Date(2017,6,21),
-                                                  new Date(2017,11,2)]})</script>
-
+	<!-- Skrollr -->
+    <script type="text/javascript">
+	 var s = skrollr.init({forceHeight: false});
+	</script>
+  
 </body>
 
 </html>
