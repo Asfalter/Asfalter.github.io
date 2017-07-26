@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-07-26">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="﻿id" title="﻿Id" type="string"></attribute>
+      <attribute id="node-type" title="node-type" type="string"></attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Segus Morales">
+        <attvalues>
+          <attvalue for="﻿id" value="Segus Morales"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.08333333581686025"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.012870283118130916"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="516.61743" y="39.085915"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="1" label="Cultura Chimborazo">
+        <attvalues>
+          <attvalue for="﻿id" value="Cultura Chimborazo"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="29.151321" y="335.1595"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="2" label="Memoria Social">
+        <attvalues>
+          <attvalue for="﻿id" value="Memoria Social"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-442.35275" y="-22.269575"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="3" label="cisne lojana">
+        <attvalues>
+          <attvalue for="﻿id" value="cisne lojana"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-387.77542" y="212.32846"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="4" label="Jennifer Toapanta">
+        <attvalues>
+          <attvalue for="﻿id" value="Jennifer Toapanta"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="87.63171" y="-245.19543"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="5" label="Cultura_Zonal3">
+        <attvalues>
+          <attvalue for="﻿id" value="Cultura_Zonal3"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="192.92793" y="-46.744858"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="6" label="Erskin Galarza">
+        <attvalues>
+          <attvalue for="﻿id" value="Erskin Galarza"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-331.19257" y="-230.04848"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="7" label="Yolanda Leon T">
+        <attvalues>
+          <attvalue for="﻿id" value="Yolanda Leon T"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="185.20094" y="178.62666"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="8" label="Cultura_Zonal6">
+        <attvalues>
+          <attvalue for="﻿id" value="Cultura_Zonal6"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-196.62856" y="349.5995"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="9" label="Gabriel Campi">
+        <attvalues>
+          <attvalue for="﻿id" value="Gabriel Campi"></attvalue>
+          <attvalue for="node-type" value="usuario"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.04931858418694193"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.33325415504745876"></attvalue>
+        </attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-121.75363" y="-316.2562"></viz:position>
+        <viz:color r="238" g="121" b="147"></viz:color>
+      </node>
+      <node id="10" label="RT @MashiRafael: En cada rincón se vive el arte. ¡Vamos todos a Loja! #ElArteViveEnLoja">
+        <attvalues>
+          <attvalue for="﻿id" value="RT @MashiRafael: En cada rincón se vive el arte. ¡Vamos todos a Loja! #ElArteViveEnLoja https://t.co/kz8mBZ3Hoj https://t.co/aho7M93kGi"></attvalue>
+          <attvalue for="node-type" value="tweet"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="pageranks" value="0.08333333581686025"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.012870283118130916"></attvalue>
+        </attvalues>
+        <viz:size value="190.0"></viz:size>
+        <viz:position x="589.30963" y="-280.7385"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+      <node id="11" label="RT @Cultura_Zonal7: En Vilcabamba familias disfrutan del cine ciudadano. @Cultura_Ec  #ElArteViveEnLoja">
+        <attvalues>
+          <attvalue for="﻿id" value="RT @Cultura_Zonal7: En Vilcabamba familias disfrutan del cine ciudadano. @Cultura_Ec  #ElArteViveEnLoja https://t.co/7i5CklAbTP"></attvalue>
+          <attvalue for="node-type" value="tweet"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="36.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="pageranks" value="0.3894661004861253"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-121.1216" y="26.449743"></viz:position>
+        <viz:color r="63" g="177" b="125"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="10"></edge>
+      <edge id="1" source="1" target="11"></edge>
+      <edge id="2" source="2" target="11"></edge>
+      <edge id="3" source="3" target="11"></edge>
+      <edge id="4" source="4" target="11"></edge>
+      <edge id="5" source="5" target="11"></edge>
+      <edge id="6" source="6" target="11"></edge>
+      <edge id="7" source="7" target="11"></edge>
+      <edge id="8" source="8" target="11"></edge>
+      <edge id="9" source="9" target="11"></edge>
+    </edges>
+  </graph>
+</gexf>
